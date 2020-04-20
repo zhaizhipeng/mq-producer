@@ -10,8 +10,6 @@ public class Main {
 
     public static void main(String[] args) {
         ApplicationContext ac = new ClassPathXmlApplicationContext("applicationContext.xml");
-        TestSpring testSpring = (TestSpring) ac.getBean("userService");
-        testSpring.test();
     }
 
 }
