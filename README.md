@@ -5,3 +5,5 @@
 1、分析 Kafak/RocketMQ/RabbitMQ 的性能
 
 2、掌握 ElasticSearch Java 查询API
+
+3、整合 canal

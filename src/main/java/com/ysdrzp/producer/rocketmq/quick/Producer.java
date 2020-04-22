@@ -12,7 +12,7 @@ public class Producer {
         //Instantiate with a producer group name.
         DefaultMQProducer producer = new DefaultMQProducer("quick_producer_group");
         // Specify name server addresses.
-        producer.setNamesrvAddr(RocketMQConstant.NAME_SERVER);
+        producer.setNamesrvAddr(RocketMQConstant.NAME_SERVER_SINGLE);
 
         //Launch the instance.
         producer.start();
